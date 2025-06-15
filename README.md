@@ -21,7 +21,7 @@ View all available components at [https://ngxui.com](https://ngxui.com)
 ## Installation
 
 ```sh
-npm install @omnedia/ngx-silk-bg three
+npm install @omnedia/ngx-silk three
 ```
 
 ## Usage
