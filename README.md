@@ -1,4 +1,4 @@
-# ngx-silk-bg
+# ngx-silk
 
 <a href="https://ngxui.com" target="_blank" style="display: flex;gap: .5rem;align-items: center;cursor: pointer; padding: 0 0 0 0; height: fit-content;">
   <img src="https://ngxui.com/assets/img/ngxui-logo.png" style="width: 64px;height: 64px;">
@@ -7,7 +7,7 @@
 This library is part of the NGXUI ecosystem.
 View all available components at [https://ngxui.com](https://ngxui.com)
 
-`@omnedia/ngx-silk-bg` is an Angular library for a highly-performant animated silk/wave shader background. The effect is GPU-accelerated with three.js, customizable, and SSR-safe.
+`@omnedia/ngx-silk` is an Angular library for a highly-performant animated silk/wave shader background. The effect is GPU-accelerated with three.js, customizable, and SSR-safe.
 
 ## Features
 
@@ -26,14 +26,14 @@ npm install @omnedia/ngx-silk three
 
 ## Usage
 
-Import the `NgxSilkBgComponent` in your Angular module or component:
+Import the `NgxSilkComponent` in your Angular module or component:
 
 ```typescript
-import { NgxSilkBgComponent } from '@omnedia/ngx-silk-bg';
+import { NgxSilkComponent } from '@omnedia/ngx-silk';
 
 @Component({
   ...
-  imports: [NgxSilkBgComponent],
+  imports: [NgxSilkComponent],
   ...
 })
 ```
@@ -42,14 +42,14 @@ Use it in your template:
 
 ```html
 <div style="width: 100vw; height: 100vh; position: relative;">
-  <om-silk-bg
+  <om-silk
     [color]="'#1976d2'"
     [speed]="4"
     [scale]="1.2"
     [noiseIntensity]="1.7"
     [rotation]="0.1"
     style="position: absolute; inset: 0; z-index: 0;"
-  ></om-silk-bg>
+  ></om-silk>
   <div style="position: relative; z-index: 1; color: white; padding: 5rem; font-size: 3rem;">
     Overlay content here
   </div>
@@ -59,13 +59,13 @@ Use it in your template:
 ## API
 
 ```html
-<om-silk-bg
+<om-silk
   [color]="'#7B7481'"
   [speed]="0.1"
   [scale]="1"
   [noiseIntensity]="1.5"
   [rotation]="0"
-></om-silk-bg>
+></om-silk>
 ```
 
 * `color`: Silk color (hex, default: `#7B7481`)
