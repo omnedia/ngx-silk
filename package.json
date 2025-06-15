@@ -1,0 +1,25 @@
+{
+  "name": "@omnedia/ngx-silk",
+  "description": "An Angular library for a highly-performant animated silk/wave shader background.",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0",
+    "three": "^0.177.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "npm",
+    "background",
+    "silk",
+    "animation"
+  ],
+  "repository": {
+    "url": "https://github.com/omnedia/ngx-silk"
+  },
+  "author": "Markus Block (markus.block@omnedia.com)",
+  "license": "MIT"
+}
